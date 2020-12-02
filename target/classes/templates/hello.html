@@ -18,8 +18,8 @@
 <body>
 
 <div class="w3-container w3-green">
-  <h1>Spring Boot Application</h1> 
-  <p>Sample Website for Red Hat Training</p> 
+  <h1 th:inline="text">Hello [[${#httpServletRequest.remoteUser}]]!</h1>
+  <p>Tourist Spots in Philippines</p> 
 </div>
 
 <div class="w3-row-padding">
